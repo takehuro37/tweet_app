@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pictweet</title>
+    <title>TweetApp</title>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
@@ -29,7 +29,7 @@
     </div>
     <header class="header">
       <div class="header__bar row">
-        <h1 class="grid-6"><a href="/">PicTweet</a></h1>
+        <h1 class="grid-6"><a href="/">TweetApp</a></h1>
         <% if user_signed_in? %>
           <div class="user_nav grid-6">
             <span><%= current_user.nickname %>
@@ -55,7 +55,7 @@
 
     <footer>
       <p>
-        Copyright PicTweet 2019.
+        Copyright TweetApp 2020.
       </p>
     </footer>
   </body>
