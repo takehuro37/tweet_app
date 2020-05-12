@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  resources :tweets, only: :index
+  devise_for :users
+  root to: "tweets#index"
+  resources :tweets
+  resources :users, only: :show
 end
