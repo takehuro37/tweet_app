@@ -11,6 +11,35 @@
   }
 }
 
+.header__rogo {
+  font-family: '遊ゴシック';
+  font-size: 1.5em;
+  font-weight: 600;
+  position: absolute;
+  top: 10px;
+  left: 8%;
+}
+
+.left-container {
+  position: fixed;
+  top: 160px;
+  left: 4%;
+  height: 65%;
+  width: 20%;
+  background-color: rgb(250, 250, 250);
+  border: 1px  solid rgb(240, 240, 240);
+}
+
+.right-container {
+  position: fixed;
+  left: 100% - 24%;
+  top: 160px;
+  height: 65%;
+  width: 20%;
+  background-color: rgb(250, 250, 250);
+  border: 1px  solid rgb(240, 240, 240);
+}
+
 .notifications {
   color: $white;
   text-align: center; 
@@ -37,11 +66,11 @@
     background-size: cover;
     cursor: pointer;
   }
-  .file-btn-hidden{
+  .file-btn-hidden {
     display: none;
   }
 }
-.file-text{
+.file-text {
   margin: 0px 0px 10px 235px;
   font-size: 0.7em;
 }
