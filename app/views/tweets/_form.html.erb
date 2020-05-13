@@ -1,3 +1,7 @@
-<%= f.text_field :image, placeholder: "Image Url" %>
+<%= f.label :image, class: "file-btn" do %>
+  <div class="file-btn-image"></div>
+  <%= f.file_field :image, class: "file-btn-hidden" %>
+<% end %>
+<div class="file-text">写真をアップロード</div>
 <%= f.text_area :text, placeholder: "text" , rows: "10" %>
-<%= f.submit "SEND" %>
+<%= f.submit "投稿" %>

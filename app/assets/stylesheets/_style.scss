@@ -377,33 +377,3 @@ footer {
     text-align: center;
   }
 }
-
-.search-form {
-  text-align: center;
-  padding-top: 32px;
-  .search-input {
-    width: 30%;
-    margin-right: 10px;
-  }
-
-  .search-btn {
-    width: 10%;
-  }
-}
-
-.notifications {
-  color: $white;
-  text-align: center; 
-
-  .notice {
-    background-color: rgb(130, 200, 223);
-    padding-top: 4px; 
-    font-size: 1.1em;
-  }
-
-  .alert {
-    background-color: rgba(255, 94, 0, 0.849);
-    padding-top: 4px; 
-    font-size: 1.1em;
-  }
-}
