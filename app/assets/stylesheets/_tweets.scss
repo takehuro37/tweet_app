@@ -12,7 +12,7 @@
 }
 
 .header__rogo {
-  font-family: '遊ゴシック';
+  font-family: "游ゴシック", "YuGothic";
   font-size: 1.5em;
   font-weight: 600;
   position: absolute;
@@ -36,8 +36,19 @@
   top: 160px;
   height: 65%;
   width: 20%;
-  background-color: rgb(250, 250, 250);
-  border: 1px  solid rgb(240, 240, 240);
+  .calender{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    position: absolute;
+    top: -12px;
+    left: -5px;
+    align-items: center;
+    .calender-text{
+      margin: 90px;
+      font-size: 1.3em;
+    }
+  }
 }
 
 .notifications {
