@@ -39,7 +39,7 @@ $white: white;
 
 body,html {
   height: 100%;
-  background-color: $lightGray;
+  background-color: rgb(255, 255, 255);
 }
 
 body {
@@ -120,8 +120,8 @@ h1,h2,h3,h4,h5,h6 {
 
 header.header {
   @include basePadding;
-  border-bottom: 1px solid $gray;
-  background-color: #fff;
+  border-bottom: 1px solid rgb(220, 230, 245);
+  background-color: rgb(220, 240, 250);
   position: fixed;
   top: 0;
   left: 0;
@@ -375,35 +375,5 @@ footer {
   color: $gray;
   p {
     text-align: center;
-  }
-}
-
-.search-form {
-  text-align: center;
-  padding-top: 32px;
-  .search-input {
-    width: 30%;
-    margin-right: 10px;
-  }
-
-  .search-btn {
-    width: 10%;
-  }
-}
-
-.notifications {
-  color: $white;
-  text-align: center; 
-
-  .notice {
-    background-color: rgb(130, 200, 223);
-    padding-top: 4px; 
-    font-size: 1.1em;
-  }
-
-  .alert {
-    background-color: rgba(255, 94, 0, 0.849);
-    padding-top: 4px; 
-    font-size: 1.1em;
   }
 }

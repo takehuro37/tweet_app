@@ -19,6 +19,8 @@
         s.parentNode.insertBefore(wf, s);
       })();
     </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="https://npmcdn.com/flatpickr/dist/themes/material_blue.css">
   </head>
 
   <body>
@@ -28,8 +30,9 @@
       <% end %>
     </div>
     <header class="header">
+      <div class="header__rogo"><a href="/">~ 写 真 日 記 ~</a></div>
       <div class="header__bar row">
-        <h1 class="grid-6"><a href="/">TweetApp</a></h1>
+        <h1 class="grid-6">Photo Diary</h1>
         <% if user_signed_in? %>
           <div class="user_nav grid-6">
             <span><%= current_user.nickname %>
@@ -58,5 +61,14 @@
         Copyright TweetApp 2020.
       </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ja.js"></script>
+    <script>
+      const config = {
+        inline: true
+      }
+      flatpickr.localize(flatpickr.l10ns.ja);
+      flatpickr('#calendarTEST', config);
+    </script>
   </body>
 </html>
