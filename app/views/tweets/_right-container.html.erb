@@ -1,6 +1,9 @@
 <div class="right-container">
-  <div class="calender">
-    <span class="calender-text">calendar</span>
-  </div>
-  <input type="text" id="calendarTEST">
+  <%= form_with(url: search_calender_tweets_path, local: true, method: :get ) do |f| %>
+    <div class="calender">
+      <span class="calender-text">calendar</span>
+    </div>
+    <%= f.datetime_field :date, type:"text", id:"calendarTEST" %>
+    <%= f.submit "日付で検索" ,class:"calender-btn" %>
+  <% end %>
 </div>

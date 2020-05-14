@@ -1,6 +1,6 @@
 class TweetsController < ApplicationController
   before_action :set_tweet, only: [:edit, :show]
-  before_action :move_to_index, except: [:index, :show, :search]
+  before_action :move_to_index, except: [:index, :show, :search, :search_calender]
 
   def index
     @tweets = Tweet.includes(:user).order("created_at DESC").page(params[:page]).per(5)
@@ -46,6 +46,10 @@ class TweetsController < ApplicationController
       format.html
       format.json
     end
+  end
+
+  def search_calender
+    @tweets = Tweet.search(params[:date])
   end
 
   private

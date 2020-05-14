@@ -37,17 +37,25 @@
   height: 65%;
   width: 20%;
   .calender{
-    width: 100%;
+    width: 102%;
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 25px;
     position: absolute;
     top: -12px;
     left: -5px;
     align-items: center;
     .calender-text{
-      margin: 90px;
-      font-size: 1.3em;
+      margin: 75px;
+      font-size: 1.6em;
     }
+  }
+  .calender-btn{
+    margin: 35px 0px 0px 95px;
+    padding: 2px;
+    border-radius: 5%;
+    font-size: 14px;
+    height: 35px;
+    width: 120px;
   }
 }
 
