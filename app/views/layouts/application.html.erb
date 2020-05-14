@@ -38,7 +38,7 @@
             <span><%= current_user.nickname %>
             <ul class="user__info">
               <li>
-                <%= link_to "マイページ", "/users/#{current_user.id}" %>
+                <%= link_to "投稿一覧", "/users/#{current_user.id}" %>
                 <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
               </li>
             </ul>
