@@ -76,3 +76,7 @@ gem 'mini_magick'
 group :development do
   gem 'web-console'
 end
+
+group :production do
+  gem 'unicorn', '5.4.1'
+end
