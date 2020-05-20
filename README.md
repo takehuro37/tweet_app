@@ -4,7 +4,8 @@
 投稿した写真にはコメント出来ます。</br>
 インフラにはAWSを使用しています。</br>
 　</br>
-<img width="1397" alt="demo" src="https://user-images.githubusercontent.com/60645490/82411995-c26a7d80-9aad-11ea-9ef8-b781c67df109.jpg)">
+![55d7847698b1afbe76091d66a27c4ee9](https://user-images.githubusercontent.com/60645490/82412301-605e4800-9aae-11ea-8f09-0c22a10f8a58.jpg)
+
 
 ## ▪URL
 http://54.249.200.10/ </br>
