@@ -9,6 +9,9 @@
 
 ## ▪URL
 http://54.249.200.10/ </br>
+  《テストユーザー :ユーザー１》 </br>
+  ●Email :test_user@gmail.com </br>
+  ●PassWord : hogehoge </br>
  </br>
  
 ## ▪機能一覧
@@ -19,6 +22,7 @@ http://54.249.200.10/ </br>
 ・コメント投稿 （非同期機能） </br>
 ・単体テスト  </br>
  </br>
+ ![tweet](https://user-images.githubusercontent.com/60645490/82414236-b1bc0680-9ab1-11ea-85d4-93d504cf31e1.gif)
  
 ## ▪使用技術
 ・Ruby '2.5.1' , Rails '5.2.3' </br>
